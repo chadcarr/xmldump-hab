@@ -3,5 +3,11 @@
 use XML::Writer;
 
 my $writer = XML::Writer->new(OUTPUT => "self");
-$writer->dataElement( device => "/dev/sda1" );
-print("$writer\n");
+$writer->dataElement(dev => "sda1");
+
+$|++; # autoflush STDOUT
+
+while (1) {
+    print("$writer\n");
+    sleep(10);
+}
