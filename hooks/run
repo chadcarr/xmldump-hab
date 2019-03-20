@@ -1,0 +1,10 @@
+#!/bin/sh
+ 
+# redirect stderr
+exec 2>&1
+ 
+# set environment variables
+# export PERL5LIB=
+ 
+# Run the command
+exec {{pkg.path}}/bin/xmldump.pl
