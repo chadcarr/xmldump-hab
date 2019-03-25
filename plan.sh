@@ -1,6 +1,6 @@
 pkg_name=xmldump
 pkg_origin=chadcarr
-pkg_maintainer="Chad Carr <ccarr@franzdoodle.com>"
+pkg_maintainer="Chad Carr ccarr@franzdoodle.com"
 pkg_version=0.1
 pkg_license=(unrestricted)
 pkg_description="Trivial test program which depends on XML::Writer"
